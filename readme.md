@@ -4,8 +4,8 @@
 <br/>
 
 <div align="center">
-  <a href="https://github.com/ArwenQuemuel0/">
-    <img src="backend/public/assets/arwenpic.jpg" alt="Arwen" width="130" height="130">
+  <a href="https://github.com/Yozora251/">
+    <img src="newlogo.png" alt="OpportuneX" width="130" height="130">
   </a>
 <!-- * Title Section -->
   <h3 align="center">OpportuneX EcoCoir</h3>
