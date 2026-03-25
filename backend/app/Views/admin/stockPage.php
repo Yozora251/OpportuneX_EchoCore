@@ -98,7 +98,7 @@ $currentPath = $uri->getPath();
 
                 <button onclick="openAddBook()"
                     class="hover:bg-[#6f7358] px-6 py-3 rounded-full font-semibold text-lg transition primary-btn">
-                    ➕ Add New Book
+                    ➕ Add New Item
                 </button>
             </div>
 
