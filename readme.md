@@ -8,12 +8,12 @@
     <img src="backend/public/assets/arwenpic.jpg" alt="Arwen" width="130" height="130">
   </a>
 <!-- * Title Section -->
-  <h3 align="center">Achlys' Bookstore</h3>
+  <h3 align="center">OpportuneX EcoCoir</h3>
 </div>
 
 <!-- * Description Section -->
 <div align="center">
-Where shadows meet stories — discover timeless tales that linger long after the last page.
+EcoCoir Creations started as a family mission to reduce coconut waste and repurpose it as practical lifestyle products.
 </div>
 
 <br/>
@@ -52,26 +52,6 @@ Where shadows meet stories — discover timeless tales that linger long after th
 
 ---
 
-## Overview
-
-This system provides an online eBook purchasing platform where users can browse, explore, and buy digital books across various genres.
-
-It is designed to be user-friendly, responsive, and aesthetic, offering a smooth reading and purchasing experience inspired by the charm of dark academia.
-
-* *Purpose*: to make discovering and purchasing eBooks simple and immersive.
-* *Audience*: readers and book enthusiasts who enjoy exploring stories through a digital bookstore experience.
-
-### Key Components
-
-These are *sample modules* included (or suggested) for learning how to add features:
-
-| Component                 | Purpose                                                             | Notes                                                   |
-| ------------------------- | ------------------------------------------------------------------- | ------------------------------------------------------- |
-| *Auth (Sample)*         | Basic login/logout and role check (admin/user).                     | Uses CI4 sessions + MySQL users table.                |
-| *CRUD Module*           | Example entity (Posts or Tasks) with create/read/update/delete. | Demonstrates Controller → Service → Repository pattern. |
-| *Scheduler (Sample)*    | Simple to-do list with due dates.                                   | Shows how to extend with new tables and services.       |
-
- <!-- ! Start simple. Use these modules as *learning samples*; extend or replace them based on your project’s needs. -->
 
 ### Technology
 
@@ -93,18 +73,6 @@ These are *sample modules* included (or suggested) for learning how to add featu
 
 ---
 
-## Quick Start (Docker)
-
-Run the development stack and the app (rebuild if needed):
-
-cmd
-docker compose up --watch
-
-- Create a controller (add --resource to scaffold resourceful methods if you like) (using CodeIgniter's spark tool):
-cmd
-docker compose exec php php spark make:controller Users
-
-If you prefer, you can include -f "compose.yaml" explicitly; the shorter commands above work when running from the repo root.
 
 ## Ports & Database
 

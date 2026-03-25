@@ -249,13 +249,19 @@ foreach ($cart as $c) {
 
             fetch(form.action, {
                     method: 'POST',
-                    body: formData
+                    body: formData,
+                    headers: {
+                        'X-Requested-With': 'XMLHttpRequest'
+                    }
                 })
-                .then(response => response.text())
+                .then(response => response.json())
                 .then(data => {
-                    closeCartModal();
-                    // Reload to update cart
-                    location.reload();
+                    if (data.status === 'success') {
+                        closeCartModal();
+                        location.reload();
+                    } else {
+                        alert(data.message || 'Error adding to cart');
+                    }
                 })
                 .catch(error => {
                     console.error('Error:', error);

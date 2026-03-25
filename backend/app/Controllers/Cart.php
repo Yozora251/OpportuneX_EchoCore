@@ -65,6 +65,11 @@ class Cart extends BaseController
         $session->set($cartKey, $cart);
         $session->set('cart', $cart);
 
+        // Return JSON for AJAX (fetch) requests, redirect otherwise
+        if ($this->request->isAJAX()) {
+            return $this->response->setJSON(['status' => 'success']);
+        }
+
         return redirect()->back();
     }
 
